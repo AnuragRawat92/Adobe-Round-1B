@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "input_documents": [
+      "NCERT-Class-12-Chemistry-Part-2-1-40.pdf",
+      "NCERT-Class-12-Chemistry-Part-2-107-150.pdf",
+      "NCERT-Class-12-Chemistry-Part-2-151-186.pdf",
+      "NCERT-Class-12-Chemistry-Part-2-41-74.pdf",
+      "NCERT-Class-12-Chemistry-Part-2-75-106.pdf"
+    ],
+    "persona": "Undergraduate Chemistry Student",
+    "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
+    "processing_timestamp": "2025-07-25T23:32:23.590819"
+  },
+  "extracted_sections": [
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-151-186.pdf",
+      "page_number": 15,
+      "section_title": "Page 15",
+      "importance_rank": 1
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-75-106.pdf",
+      "page_number": 1,
+      "section_title": "Page 1",
+      "importance_rank": 2
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-107-150.pdf",
+      "page_number": 13,
+      "section_title": "Page 13",
+      "importance_rank": 3
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-75-106.pdf",
+      "page_number": 20,
+      "section_title": "Page 20",
+      "importance_rank": 4
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-151-186.pdf",
+      "page_number": 30,
+      "section_title": "Page 30",
+      "importance_rank": 5
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-151-186.pdf",
+      "page_number": 15,
+      "refined_text": "After studying this Unit you will be\nable to\n•\nvisualise \nthe "
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-75-106.pdf",
+      "page_number": 1,
+      "refined_text": "After studying this Unit, you will be\nable to\n•\nwrite the common  and IUPAC\nnames of aldehydes, ketones and"
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-107-150.pdf",
+      "page_number": 13,
+      "refined_text": "393\nAmines\nC:\\Chemistry-12\\Unit-13.pmd    28.02.07\n4. Carbylamine reaction\nAliphatic and aromatic primary amines on heating with chloroform"
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-75-106.pdf",
+      "page_number": 20,
+      "refined_text": "368\nChemistry\nC:\\Chemistry-12\\Unit-12.pmd    28.02.07\nCarboxylic acids are also prepared from aldehydes by the use of\nmild oxidising agents (Section 12.4)."
+    },
+    {
+      "document": "NCERT-Class-12-Chemistry-Part-2-151-186.pdf",
+      "page_number": 30,
+      "refined_text": "454\nChemistry\nC:\\Chemistry-12\\Unit-16.pmd    28.02.07\nExercises\n16.1"
+    }
+  ]
+}

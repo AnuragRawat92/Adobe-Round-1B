@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "input_documents": [
+      "g1.pdf",
+      "g2.pdf",
+      "g3.pdf",
+      "g4.pdf"
+    ],
+    "persona": "PhD Researcher in Machine Learning",
+    "job_to_be_done": "Write a literature review of recent Graph Neural Network techniques with focus on model architectures, benchmark datasets, and performance metrics",
+    "processing_timestamp": "2025-07-25T23:30:25.055398"
+  },
+  "extracted_sections": [
+    {
+      "document": "g1.pdf",
+      "page_number": 8,
+      "section_title": "Page 8",
+      "importance_rank": 1
+    },
+    {
+      "document": "g2.pdf",
+      "page_number": 1,
+      "section_title": "Page 1",
+      "importance_rank": 2
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 186,
+      "section_title": "Page 186",
+      "importance_rank": 3
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 2,
+      "section_title": "Page 2",
+      "importance_rank": 4
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 25,
+      "section_title": "Page 25",
+      "importance_rank": 5
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "g1.pdf",
+      "page_number": 8,
+      "refined_text": "2. Advances in Graph Neural Networks \n2.1 General Graph Theory  \nIn principle, GNNs can be broadly categorized into two methodological paradigms based on their \nunderlying theoretical foundations: spectral-based and spatial-based approaches, as illustrated in the \nFigure 2. Spectral methods extend the concept of convolution from Euclidean domains, which is used in "
+    },
+    {
+      "document": "g2.pdf",
+      "page_number": 1,
+      "refined_text": "arXiv:2506.01302v1  [cs.LG]  2 Jun 2025\nRecent Developments in GNNs for Drug Discovery\nZhengyu Fang1, Xiaoge Zhang1, Anyin Zhao1, Xiao Li1,2,3,4, Huiyuan Chen1, and Jing\nLi*1\n1Department of Computer and Data Sciences, Case Western Reserve University"
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 186,
+      "refined_text": "(69) Guo, H.; Sun, S. Softedge: regularizing graph classification with random soft edges. arXiv preprint \narXiv:2204.10390 2022. \n(70) Li, G.; Muller, M.; Thabet, A.; Ghanem, B. Deepgcns: Can gcns go as deep as cnns? In Proceedings of \nthe IEEE/CVF international conference on computer vision, 2019; pp 9267-9276. \n(71) Chen, M.; Wei, Z.; Huang, Z.; Ding, B.; Li, Y. Simple and deep graph convolutional networks. In "
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 2,
+      "refined_text": "Abstract \nGraph neural networks (GNNs), as topology/structure-aware models within deep learning, have emerged \nas powerful tools for AI-aided drug discovery (AIDD). By directly operating on molecular graphs, GNNs \noffer an intuitive and expressive framework for learning the complex topological and geometric features \nof drug-like molecules, cementing their role in modern molecular modeling. This review provides a "
+    },
+    {
+      "document": "g1.pdf",
+      "page_number": 25,
+      "refined_text": "data side, the scarcity of labeled data in real-world graph domains limits the training potential of large \nmodels. To overcome this, self-supervised learning has emerged as a promising pretraining strategy, \nleveraging large quantities of unlabeled data. However, if the pretraining task is poorly aligned with \ndownstream objectives, it can result in the so-called negative transfer65, where pretraining impairs rather \nthan improves downstream performance. Therefore, this chapter focuses on three key aspects of "
+    }
+  ]
+}

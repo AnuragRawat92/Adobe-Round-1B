@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "input_documents": [
+      "b1.pdf",
+      "b2.pdf",
+      "b3.pdf",
+      "b4.pdf"
+    ],
+    "persona": "Investment Analyst",
+    "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "processing_timestamp": "2025-07-25T23:32:07.868475"
+  },
+  "extracted_sections": [
+    {
+      "document": "b2.pdf",
+      "page_number": 65,
+      "section_title": "Page 65",
+      "importance_rank": 1
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 282,
+      "section_title": "Page 282",
+      "importance_rank": 2
+    },
+    {
+      "document": "b2.pdf",
+      "page_number": 7,
+      "section_title": "Page 7",
+      "importance_rank": 3
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 38,
+      "section_title": "Page 38",
+      "importance_rank": 4
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 245,
+      "section_title": "Page 245",
+      "importance_rank": 5
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "b2.pdf",
+      "page_number": 65,
+      "refined_text": "LIQUIDITY AND CAPITAL RESOURCES\nThe following sections discuss the effects of changes in our balance sheet, our capital allocation strategy including stock \nrepurchase program and dividends, our contractual obligations, and certain other commitments and activities on our liquidity \nand capital resources.\nBalance Sheet and Cash Flows"
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 282,
+      "refined_text": "Consolidated Financial Statements under Ind AS\n(C in millions, except share and per share data, unless otherwise stated)\nNotes to the Consolidated Financial Statements\nNumber of shares\nCarrying value"
+    },
+    {
+      "document": "b2.pdf",
+      "page_number": 7,
+      "refined_text": "5\nCisco Annual Report 2024\n$304.23\n$195.82\n$98.92"
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 38,
+      "refined_text": "We have always strived to enhance shareholder value for our investors. The Company’s policy has been to provide \nregular, stable and consistent distribution of return. The Company’s policy of capital allocation includes a minimum \npayout of 45%-50% of net income for a period of the trailing three years. There has been no change in our philosophy on \nshareholder return during the year ended March 31, 2024.\nOur revenues and profits for the years ended March 31, 2023 and 2024 are provided below:"
+    },
+    {
+      "document": "b4.pdf",
+      "page_number": 245,
+      "refined_text": "(C in millions, except share and per share data, unless otherwise stated)\nConsolidated Financial Statements under Ind AS\nConsolidated Balance Sheet\nNotes\nAs at "
+    }
+  ]
+}
