@@ -6,6 +6,7 @@ The goal of this challenge is to build a Persona-Driven Document Intelligence Sy
 
 ## Methodology
 
+
 Our solution is implemented as a modular pipeline consisting of the following stages:
 
 ### 1. PDF Text Extraction
@@ -17,6 +18,7 @@ We use PyMuPDF (fitz) to extract page-level text from PDFs. Each page is stored 
 The system reads a JSON file containing the persona and job description:
 
 ```json
+
 {
   "persona": "PhD Researcher in Computational Biology",
   "job": "Prepare a comprehensive literature review..."
@@ -53,13 +55,27 @@ Each collection contains an input_docs/ folder and a persona_job.json file. Outp
 Constraints Compliance
 Our solution is built to meet the challenge constraints:
 
+
+
+# Create virtual environment
+python -m venv venv311
+
 ✅ CPU-only execution
+
 
 ✅ Model size under 1GB
 
 ✅ Processing time under 60 seconds per collection
 
 Docker Support
+
+The project includes a Dockerfile for containerized execution. This ensures that the pipeline can run consistently across different systems without needing manual environment setup. The container includes all necessary dependencies and runs the main processing script when started.
+
+📞 Contact:
+Developed by: CP_Haters
+📍 IET Lucknow
+💻 For: Adobe India Hackathon 2025
+=======
 We include a Dockerfile to containerize the entire pipeline. This ensures the system runs reliably across environments without dependency issues.
 
 To build and run:
@@ -68,3 +84,4 @@ docker build -t adobe-round-1b .
 docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" adobe-round-1b
 ```
  This makes it easy to reproduce results and test submissions without local setup.
+
