@@ -11,9 +11,7 @@ We use PyMuPDF (fitz) to extract text from input PDF documents. Each page is rep
 2. Persona-Task Conditioning
 The system reads a persona_job.json file containing persona and job description like:
 
-json
-Copy
-Edit
+
 {
   "persona": "PhD Researcher in Computational Biology",
   "job": "Prepare a comprehensive literature review..."
@@ -49,9 +47,7 @@ Each collection contains its own set of input PDFs and a persona_job.json file. 
 Virtual Environment (venv) Setup
 We use Python’s venv module to isolate dependencies and ensure reproducibility:
 
-bash
-Copy
-Edit
+
 # Create virtual environment
 python -m venv venv311
 
@@ -65,4 +61,7 @@ This approach avoids conflicts with global packages and ensures a consistent dev
 Docker Support
 The project includes a Dockerfile for containerized execution. This ensures that the pipeline can run consistently across different systems without needing manual environment setup. The container includes all necessary dependencies and runs the main processing script when started.
 
-Let me know if you'd like the .md file generated, or if you want me to format it into your repository structure.
+📞 Contact:
+Developed by: CP_Haters
+📍 IET Lucknow
+💻 For: Adobe India Hackathon 2025
