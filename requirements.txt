@@ -1,5 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 transformers==4.41.1
-torch==2.3.0
+torch==2.3.0+cpu
 sentence-transformers==2.6.1
 PyMuPDF==1.23.21
 numpy

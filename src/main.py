@@ -15,7 +15,7 @@ def process_collection(collection_name: str):
     print(f"\n📂 Processing: {collection_name}")
     
     # Define paths for the current collection
-    base_dir = f"data/{collection_name}"
+    base_dir = f"input/{collection_name}"
     pdf_dir = os.path.join(base_dir, "input_docs")
     persona_job_file = os.path.join(base_dir, "persona_job.json")
     output_path = f"output/{collection_name}_output.json"

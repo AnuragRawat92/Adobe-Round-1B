@@ -1,20 +1,21 @@
-# Use official Python image
+# Use official Python slim image
 FROM python:3.10-slim
 
-# Set work directory
+# Set working directory
 WORKDIR /app
 
-# Copy the project files
+# Copy only requirements first to leverage Docker layer caching
+COPY requirements.txt .
+
+# Upgrade pip and install dependencies
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Now copy the rest of the code
 COPY . .
 
-# Upgrade pip
-RUN pip install --upgrade pip
-
-# Install dependencies
-RUN pip install -r requirements.txt
-
-# Set environment variables (optional)
+# Set environment variables
 ENV PYTHONUNBUFFERED=1
 
-# Default command
+# Default execution command
 CMD ["python", "-m", "src.main"]

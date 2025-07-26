@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.log
+*.csv
+*.md
+.ipynb_checkpoints/
+output/
+input/
+.git/
+*.DS_Store
